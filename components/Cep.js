@@ -4,7 +4,7 @@ import { StyleSheet, Text } from 'react-native';
 export default function Cep(props) {
   return (
     <>
-	  <Text style={styles.texto}> Dados do endereço </Text>
+	  <Text style={styles.texto}> Dados do endereco novo </Text>
 	  <Text style={styles.texto}> CEP: {props.data.cep} </Text>
 	  <Text style={styles.texto}> Logradouro:  {props.data.logradouro}</Text>
 	  <Text style={styles.texto}> Bairro:  {props.data.bairro}</Text>
